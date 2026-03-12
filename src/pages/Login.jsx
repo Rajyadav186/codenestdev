@@ -136,7 +136,7 @@ export default function Login() {
           <a href="/" onClick={e => { e.preventDefault(); navigate('/') }}>← Back to Website</a>
         </div>
         <div className="auth-hint">
-          Admin: {import.meta.env.VITE_ADMIN_EMAIL || 'admin@codenestdev.com'}
+
         </div>
       </div>
     </div>
