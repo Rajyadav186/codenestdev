@@ -105,7 +105,7 @@ export default function Login() {
           <>
             <div className="form-group">
               <label className="form-label">Full Name</label>
-              <input className="form-control" placeholder="Rajesh Kumar"
+              <input className="form-control" placeholder="Your Name"
                 value={sf.name} onChange={e => setSf({ ...sf, name: e.target.value })} />
             </div>
             <div className="form-group">
